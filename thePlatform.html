@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8" />
+		<title>BagMeUp</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+		<!-- Google Fonts CSS -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<!-- My CSS styles -->
+		<link rel="stylesheet" href="styles.css">
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Font Awesome icons css -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="icon" href="BagMeUpLogo.png">
+	</head>
+	<body>
+		<style>
+			body {
+				background-image: url("doodle.jpg");
+				font-family: Montserrat;
+			}
+			nav {
+				z-index: 99999;
+			}
+			hr {
+				width: 80%;
+			}
+			h1 {
+				font-size: 200%;
+				color: #2DA1A1;
+			}
+			h2 {
+				color: grey;
+			}
+			h4, h5 {
+				color: #2DA1A1;
+			}
+			main {
+				text-align: center;
+			}
+			@media screen and (max-width: 600px) {
+				main {
+					margin-top: 20%;
+				}
+				.ops {
+					width: 100%;
+				}
+				#social {
+					font-size: 100%;
+					width: 80%;
+					margin-right: 10%;
+					margin-left: 10%;
+					padding-top: 2%;
+					padding-bottom: 2%;
+				}
+				footer {
+					margin-bottom: 0%;
+				}
+			}
+			@media screen and (min-width: 600px) {
+				main {
+					margin-top: 10%;
+				}
+				.ops {
+					width: 50%;
+				}
+				#social {
+					font-size: 130%;
+					padding-top: 1%;
+					padding-bottom: 1%;
+					width: 40%;
+					margin-right: 30%;
+					margin-left: 30%;
+				}
+			}
+			.email {
+				color: grey;
+				font-weight: bold;
+				font-style: italic;
+			}
+			.email:hover {
+				color: #2DA1A1;
+				text-shadow: 5px 5px 18px grey;
+			}
+			#social {
+				background-color: white;
+				color: grey;
+				box-sizing: border-box;
+				text-align: center;
+				border: 0.08em solid #2DA1A1;
+				border-radius: 0.2em;
+				transition-duration: 0.3s;
+			}
+			#social:hover {
+				box-shadow: 3px 5px 15px;
+			}
+			footer {
+				background-image: url("transparent_rect.png");
+				bottom: 0;
+				width: 100%;
+				text-align: center;
+				color: #2DA1A1;
+			}
+		</style>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3ecf9; position: fixed; top: 0; width: 100%;">
+			<div style="font-size: 150%; color: #2DA1A1;">
+				<img src="BagMeUpLogo.png" alt="BagMeUp Logo" height="50" width="50">
+				BagMeUp
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" style="color: #2DA1A1;"> Home </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="thePlatform.html" style="color: grey;"> <b>How BagMeUp works?</b> </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="hp.html" style="color: #2DA1A1;"> Our hosting points </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="team.html" style="color: #2DA1A1;"> Our story and team </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html#contact" style="color: #2DA1A1;"> Contact us </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://eepurl.com/gp88On" style="color: #2DA1A1;"> <b>Subscribe!</b> <i class="fab fa-mailchimp"></i> </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<main>
+			<img class="ops" src="bmu_works.png" alt="">
+
+			<br>
+			<hr>
+			<br>
+
+			<div id="social">
+				Like us on <a class="email" href="https://www.facebook.com/BagMeUpgr/"><i class="fab fa-facebook-square"></i></a> and Follow us on <a class="email" href="https://www.instagram.com/bagmeupgr"><i class="fab fa-instagram"></i></a>
+			</div>
+		</main>
+
+		<br>
+		<hr>
+		<br>
+
+		<footer>
+			<p>
+				Made with <i style="color: red;" class="far fa-heart"></i> by the <b>BagMeUp</b> team
+				<br>
+				<i class="far fa-copyright"></i> All copyrights reserved
+			</p>
+		</footer>
+		<!--Bootstrap JS files -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

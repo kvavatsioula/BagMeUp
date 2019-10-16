@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8" />
+		<title>BagMeUp</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+		<!-- Google Fonts CSS -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<!-- My CSS styles -->
+		<link rel="stylesheet" href="styles.css">
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Font Awesome icons css -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="icon" href="BagMeUpLogo.png">
+	</head>
+	<body>
+		<style>
+			body {
+				background: url("parthenon.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				font-family: Montserrat;
+				scroll-behavior: smooth;
+			}
+			nav {
+				z-index: 99999;
+			}
+			hr {
+				width: 80%;
+			}
+			h1 {
+				font-size: 200%;
+				color: #2DA1A1;
+			}
+			h2 {
+				color: grey;
+			}
+			h4, h5 {
+				color: #2DA1A1;
+			}
+			main {
+				background-image: url("transparent_rect.png");
+				color: #2DA1A1;
+				text-align: center;
+				margin-right: 10%;
+				margin-left: 10%;
+				width: 80%;
+				border-radius: 15px;
+				padding: 2%;
+			}
+			@media screen and (max-width: 600px) {
+				main {
+					margin-top: 25%;
+				}
+			}
+			@media screen and (min-width: 600px) {
+				main {
+					margin-top: 10%;
+				}
+			}
+			#social {
+				color: grey;
+				padding-top: 2%;
+				padding-bottom: 2%;
+				box-sizing: border-box;
+				text-align: center;
+				margin-right: 10%;
+				margin-left: 10%;
+				width: 80%;
+				border: 0.08em solid #2DA1A1;
+				border-radius: 0.2em;
+				transition-duration: 0.3s;
+			}
+			#social:hover {
+				box-shadow: 3px 5px 15px;
+			}
+			.email {
+				color: grey;
+				font-weight: bold;
+			}
+			.email:hover {
+				color: #2DA1A1;
+				text-shadow: 5px 5px 18px grey;
+			}
+			footer {
+				text-align: center;
+				color: #2DA1A1;
+			}
+		</style>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3ecf9; position: fixed; top: 0; width: 100%;">
+			<div style="font-size: 150%; color: #2DA1A1;">
+				<img src="BagMeUpLogo.png" alt="BagMeUp Logo" height="50" width="50">
+				BagMeUp
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" style="color: #2DA1A1;"> Home </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="thePlatform.html" style="color: #2DA1A1;"> How BagMeUp works? </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="hp.html" style="color: grey;"> <b>Our hosting points</b> </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="team.html" style="color: #2DA1A1;"> Our story and team </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html#contact" style="color: #2DA1A1;"> Contact us </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#signup" style="color: #2DA1A1;"> <b>Subscribe!</b> <i class="fab fa-mailchimp"></i> </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main>
+			<h1>
+				BagMeUp Hosting Points
+			</h1>
+			<br>
+			<p>
+				BagMeUp partnered up with various shops in Athens, in order to offer luggage storage units all over Athens. More inf coming up soon!
+			</p>
+
+			<br>
+			<hr>
+			<br>
+
+			<p>
+				Wanna learn more about our <b>Hosting Points</b> or even use our services and stash your luggage in one of them? <a class="email" href="https://www.facebook.com/BagMeUpgr">Send us a message on <i class="fab fa-facebook-messenger"></i></a> and we will find the most suitable one near you!
+			</p>
+		</main>
+
+		<br>
+		<br>
+		<br>
+
+		<footer style="margin-top: 3%;">
+			<p>
+				Made with <i style="color: red;" class="far fa-heart"></i> by the <b>BagMeUp</b> team
+				<br>
+				<i class="far fa-copyright"></i> All copyrights reserved
+			</p>
+		</footer>
+		<!--Bootstrap JS files -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

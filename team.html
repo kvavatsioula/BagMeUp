@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf8" />
+		<title>BagMeUp</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1">
+		<!-- Google Fonts CSS -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<!-- My CSS styles -->
+		<link rel="stylesheet" href="styles.css">
+		<!-- Bootstrap css -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!-- Font Awesome icons css -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="icon" href="BagMeUpLogo.png">
+	</head>
+	<body>
+		<style>
+			body {
+				font-family: Montserrat;
+				scroll-behavior: smooth;
+			}
+
+			nav {
+				z-index: 99999;
+			}
+			hr {
+				width: 80%;
+			}
+			h1 {
+				font-size: 200%;
+				color: #2DA1A1;
+			}
+			h2 {
+				text-align: left;
+				color: grey;
+			}
+			h4, h5 {
+				color: #2DA1A1;
+			}
+			main {
+				color: #2DA1A1;
+				text-align: center;
+				margin-right: 10%;
+				margin-left: 10%;
+				width: 80%;
+			}
+			@media screen and (max-width: 600px) {
+				main {
+					margin-top: 25%;
+				}
+			}
+			@media screen and (min-width: 600px) {
+				main {
+					margin-top: 10%;
+				}
+			}
+			#timeline {
+				font-size: 90%;
+				padding-top: 2%;
+				padding-left: 2%;
+				padding-right: 2%;
+				box-sizing: border-box;
+				text-align: left;
+				margin-right: 10%;
+				margin-left: 10%;
+				margin-bottom: 5%;
+				width: 80%;
+				border-radius: 0.2em;
+			}
+			.yearbox {
+				padding-top: 2%;
+				box-sizing: border-box;
+				margin-top: 0;
+				margin-bottom: 0;
+				margin-right: 10%;
+				margin-left: 10%;
+				width: 80%;
+				border: 0.09em dotted #2DA1A1;
+				border-top: hidden;
+			}
+
+			#dinosaurs , #march , #may, #july {
+				padding-left: 2%;
+				border-right: hidden;
+			}
+
+			#birthyear , #april, #june {
+				padding-right: 2%;
+				border-left: hidden;
+			}
+			.email {
+				color: grey;
+				font-weight: bold;
+				font-style: italic;
+			}
+			.email:hover {
+				color: #2DA1A1;
+				text-shadow: 5px 5px 18px grey;
+			}
+			.msocial {
+				margin-left: 1%;
+				margin-right: 1%;
+				color: grey;
+				font-weight: bold;
+			}
+			.msocial:hover {
+				color: #2DA1A1;
+				text-shadow: 5px 5px 18px grey;
+			}
+			#team {
+				box-sizing: border-box;
+				width: 80%;
+				text-align: center;
+				margin-right: 10%;
+				margin-left: 10%;
+				padding-top: 3%;
+				padding-bottom: 3%;
+			}
+			.member {
+				margin-top: 2%;
+				margin-bottom: 2%;
+				width: 30%;
+				border-radius: 5px;
+			}
+			footer {
+				margin-bottom: 0%;
+				text-align: center;
+				color: #2DA1A1;
+			}
+		</style>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3ecf9; position: fixed; top: 0; width: 100%;">
+			<div style="font-size: 150%; color: #2DA1A1;">
+				<img src="BagMeUpLogo.png" alt="BagMeUp Logo" height="50" width="50">
+				BagMeUp
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html" style="color: #2DA1A1;"> Home </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="thePlatform.html" style="color: #2DA1A1;"> How BagMeUp works? </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="hp.html" style="color: #2DA1A1;"> Our hosting points </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="team.html" style="color: grey;"> <b>Our story and team</b> </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html#contact" style="color: #2DA1A1;"> Contact us </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://eepurl.com/gp88On" style="color: #2DA1A1;"> <b>Subscribe!</b> <i class="fab fa-mailchimp"></i> </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main>
+			<h2>
+				BagMeUp's backstory
+			</h2>
+			<br>
+			<p>
+				The idea of BagMeUp emerged for the objectives of the course "Electronic Commerce and Internet Applications" of the Dept. of Management Science and Technology, Athens University of Economics and Business in March, 2019. The team was formed and we started working on that project. From then on, BagMeUp has been supported by the <b>Athens Center of Enterpreneurship and Innovation (ACEin)</b>, an incubation center based in Athens, Greece that offers support to potential young entrepreneurs in order to develop innovative business ideas and bring them to the market.
+				Now, BagMeup operates in pilot version and offers luggage storage services free of charge, partnering up with <a href="hp.html" class="email">hosting points</a>  all over in Athens.
+			</p>
+		</main>
+
+		<br>
+		<hr>
+		<br>
+
+		<div id="timeline">
+			<h2>Timeline</h2>
+			<br>
+			<div class="yearbox" id="dinosaurs" style="text-align: left;">
+				<h4>
+					65million BC
+				</h4>
+				<p>
+					The dinosaurs roam the Earth.
+				</p>
+			</div>
+			<div class="yearbox" id="birthyear" style="text-align: right;">
+				<h4>
+					The year 1998
+				</h4>
+				<p>
+					The BagMeUp team members are born.
+				</p>
+			</div>
+			<div class="yearbox" id="march" style="text-align: left;">
+				<h4>
+					March 2019
+				</h4>
+				<p>
+					The idea for BagMeUp comes up for the first time, for the purposes of the course "Electronic Commerce and Internet Applications" (Dept. of Management Science and Technology, Athens University of Economics and Business, Year '16).
+				</p>
+			</div>
+			<div class="yearbox" id="april" style="text-align: right;">
+				<h4>
+					April 2019
+				</h4>
+				<p>
+					The idea of BagMeUp enters the "9th Athens Center of Enterpreneurship and Innovation Business Idea Contest", presenting the project for the first time in the outside world.
+				</p>
+			</div>
+			<div class="yearbox" id="may" style="text-align: left;">
+				<h4>
+					May 2019
+				</h4>
+				<p>
+					BagMeUp idea goes into the second phase of the "9th Athens Center of Enterpreneurship and Innovation Business Idea Contest"
+				</p>
+				<p>
+					Our website <a class="email" href="index.html">bagmeup.gr</a> goes <b>live</b>!
+				</p>
+			</div>
+			<div class="yearbox" id="june" style="text-align: right;">
+				<h4>
+					June 2019
+				</h4>
+				<p>
+					BagMeUp joins the Athens Center of Enterpreneurship and Innovation (ACEin) incubator!
+				</p>
+			</div>
+			<div class="yearbox" id="july" style="text-align: left;">
+				<h4>
+					July and August 2019
+				</h4>
+				<p>
+					BagMeUp collaborates with the first <b>Hosting Points</b> and starts operating in <b>pilot</b> version for <b>free</b>!
+				</p>
+			</div>
+		</div>
+
+		<br>
+		<hr>
+		<br>
+
+		<div id="team">
+			<h2>
+				The Team
+			</h2>
+			<div class="row">
+				<div class="col-sm-4 col-md-6">
+					<div class="thumbnail">
+						<img class="member" src="katerina.jpg" alt="Katerina Kalipeti">
+						<div class="caption">
+							<h3>Katerina Kalipeti</h3>
+							<p>Co-Founder</p>
+							<p>Web Design and Development</p>
+							<p>
+								<a class="msocial" href="https://www.linkedin.com/in/katerina-kalipeti/">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+								<a class="msocial" href="https://www.facebook.com/backtokalli">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6">
+					<div class="thumbnail">
+						<img class="member" src="konstantina.jpg" alt="Konstantina Vavatsioula">
+						<div class="caption">
+							<h3>Konstantina Vavatsioula</h3>
+							<p>Co-Founder</p>
+							<p>Digital Marketing &amp; Content Creation</p>
+							<p>
+								<!-- 								<a class="msocial" href="#">
+<i class="fab fa-linkedin-in"></i>
+</a> -->
+								<a class="msocial" href="https://www.facebook.com/constantina.va.5">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<!-- 								<a class="msocial" href="#">
+<i class="fab fa-twitter"></i>
+</a> -->
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6">
+					<div class="thumbnail">
+						<img class="member" src="ioannis.jpg" alt="Ioannis Florios">
+						<div class="caption">
+							<h3>Ioannis Florios</h3>
+							<p>Co-Founder</p>
+							<p>Sales Management</p>
+							<p>
+								<!-- <a class="msocial" href="#">
+<i class="fab fa-linkedin-in"></i>
+</a> -->
+								<a class="msocial" href="https://www.facebook.com/johnfl13">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<!-- <a class="msocial" href="#">
+<i class="fab fa-twitter"></i>
+</a> -->
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-6">
+					<div class="thumbnail">
+						<img class="member" src="tsiamas.jpg" alt="Alexandros Tsiamas">
+						<div class="caption">
+							<h3>Alexandros Tsiamas</h3>
+							<p>Co-Founder</p>
+							<p></p>
+							<!-- <p>
+<a class="msocial" href="#">
+<i class="fab fa-linkedin-in"></i>
+</a> -->
+							<a class="msocial" href="https://www.facebook.com/alex.tsiamas.3">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<!-- <a class="msocial" href="#">
+<i class="fab fa-twitter"></i>
+</a>
+</p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br>
+			<hr>
+			<br>
+
+			<footer>
+				<p>
+					Made with <i style="color: red;" class="far fa-heart"></i> by the <b>BagMeUp</b> team
+					<br>
+					<i class="far fa-copyright"></i> All copyrights reserved
+				</p>
+			</footer>
+			<!--Bootstrap JS files -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+			</body>
+		</html>
